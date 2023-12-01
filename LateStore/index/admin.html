@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock de Skins</title>
+    <link rel="stylesheet" href="/index/style.css">
+</head>
+<body>
+    <div class="leftbar">
+        <input type="radio" name="tab" id="dash" onclick="Dicon('dashboard');" checked>
+        <label for="dash" class="dash">
+            <div class="Ddashboard icon">
+                <a class="Home" href="/login/user.html">CERRAR SESION</a> 
+                
+                
+            </div>    
+        </label>    
+    </div>
+    
+    <div class="M">
+        <div class="Mlef">
+            <div class="Mtop">
+                <div class="Mtitl">
+                    <div class="container">
+                        <h1>STOCK DE SKINS</h1>
+                        <form id="articleForm">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" autocomplete="name" required>
+                        
+                            <label for="price">Precio:</label>
+                            <input type="number" id="price" name="price" autocomplete="price" required>
+                        
+                            <label for="imageInput">Imagen:</label>
+                            <input type="file" id="imageInput" name="imageInput" accept="image/*" onchange="previewImage()" autocomplete="off" required>
+                            <img id="imagePreview" src="#" alt="Vista previa de la imagen" style="max-width: 20%; display: none;">
+                        
+                            <button type="button" onclick="addOrUpdateArticle()">Agregar/Actualizar Artículo</button>
+                            <input type="hidden" id="editIndex" name="editIndex" value="-1">
+                        </form>
+                        
+                        
+                
+                        <div class="sideListContainer">
+                            <h2></h2>
+                            <ul id="articleList" class="articleList"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button><a class="Lista" href="lista.html">LISTA DE VENTAS</a></button>
+            <button><a class="Lista" href="/indexUsuario/user.html">USER PAGE</a></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

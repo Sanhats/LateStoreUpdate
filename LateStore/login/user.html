@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="/login/styles.css" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="user login" id="loginForm">
+          <div class="img-box">
+            <img src="images/frame-16.png" alt="" />
+          </div>
+          <div class="form-box">
+            <div class="top">
+              <p>
+                No tienes cuenta?
+                <span data-id="#ff0066" style="color: red;" id="showRegisterButton">Registrate ahora</span>
+              </p>
+            </div>
+            <form action="" method="post">
+              <div class="form-control">
+                <h2>Hola de nuevo</h2>
+                <p>Te damos la bienvenida!!!</p>
+                <input type="email" placeholder="Ingresa el correo" id="loginEmail" name="email"/>
+
+                <div>
+                  <input type="password" placeholder="Contraseña" id="loginPassword" name="password"/>
+
+                  <div class="icon form-icon">
+                    <!-- <img src="./images/eye.svg" alt="" /> -->
+                  </div>
+                </div>
+                
+                <input type="Submit" value="Iniciar sesion" id="loginButton" />
+
+               <br>
+               <br>
+               <br>
+               <br>
+                <a href="admin.html">O ingresa como administrador</a>
+               
+              
+              </div>
+              
+            </form>
+            
+          </div>
+        </div>
+
+        <!-- Register -->
+        <div id="registerForm">
+        <div class="user signup"  >
+          
+          <div class="form-box" id="registrationForm">
+            <div class="top">
+              <p>
+                Ya estas registrado?
+                <span data-id="#1a1aff" style="color: red;">Ingresa ahora</span>
+              </p>
+            </div>
+            <form action="">
+              <div class="form-control">
+                <h2>Bienvenido a CS.MONEY!</h2>
+                <p>Registrate ahora</p>
+                <input type="email" placeholder="Ingresa tu email" id="registeredEmail" name="Email"/>
+
+                <div>
+                  <input type="password" placeholder="Contraseña" id="registeredPassword" name="Password" />
+
+                  <div class="icon form-icon">
+                    <img src="./images/Screenshot_6.jpg" alt="" />
+                  </div>
+                </div>
+                <div>
+                  
+
+                  <div class="icon form-icon">
+                    <img src="./images/Screenshot_6.jpg" alt="" />
+                  </div>
+                </div>
+                <input type="Submit" value="Registrate" id="registerButton" />
+                
+              </div>
+              
+            </form>
+          </div>
+          <div class="img-box">
+            <img src="./images/Screenshot_6.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+   
+    <script src="index.js"></script>
+
+  </body>
+</html>

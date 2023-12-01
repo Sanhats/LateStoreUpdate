@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Oswald:wght@700&family=Red+Rose:wght@300&display=swap');
+
+body {
+    background-image: url("img/replicate-prediction-dsgylrbbk5c5xxojogu3pwyrzy.png");
+    font-family: Oswald ;
+    color: white;
+    font-style: Bold 700;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.icon {
+   
+    font-size: 18px;
+    font-weight: 600;
+    fill: none;
+   
+}
+
+.leftbar input:not(.checkbox) {
+    display: none;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color .3s;
+   
+    
+    
+   
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #181818;
+    text-decoration: none;
+}
+
+.leftbar,.rightbar {
+    background-image: url("img/navimg.png");
+    font-family: Oswald ;
+    font-style: Bold 700;
+    
+    letter-spacing: 2px;
+    margin-top: 0%;
+    height: 5%;
+    margin-left: 0px;
+    margin-right: 0px;
+    display:    flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    background-size: 100%;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.Mtile {
+
+    display: flex;
+    flex-direction: row;
+    margin: .7vw 0;
+    -moz-transition: filter .3s, transform .3s;
+    transition: filter .3s, transform .3s;
+}
+.Mtile:hover {
+    filter: brightness(1.1);
+    transform: scale(1.01);
+}
+
+.Mtitle {
+    background-color: #313b44;
+    margin-top: 0%;
+    padding: 1vw;
+    font-size: 1vw;
+    border-bottom: 0.01vw solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.Mtop {
+    overflow: hidden;
+    margin-bottom: 5vw;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vw 5vw 5vw 5vw;
+}
+
+
+.Mtitle .material-icons,
+.Mtitle .material-icons-outlined {
+    width: 1.1vw;
+    margin-right: .2vw;
+}
+.M {
+    
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 74%;
+    height: 100%;
+    top: 3%;
+    left: 25%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+
+
+
+
+.container {
+    margin-right: 200px;
+    
+    margin-left: 200px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 20px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+#articleList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.articleItem {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.articleImage {
+    max-width: 40%;
+    
+}
+
+.articleDetails {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deleteButton, .editButton {
+    
+    margin-top: 30px;
+    
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.deleteButton {
+    background-color: #ff3547;
+    color: #000000;
+}
+
+.deleteButton:hover {
+    background-color: #d41c2f;
+}
+
+.editButton {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.editButton:hover {
+    background-color: #000000;
+}
+
+.centered-image {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    height: 200px; /* Ajusta la altura según sea necesario */
+}
